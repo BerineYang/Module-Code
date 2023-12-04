@@ -7,7 +7,7 @@ sudo pip install spidev
 sudo pip install numpy
 ```
 ## Wiring method
-Before you run your Ppython files in your Raspberry_Pi, you should connect the wires correctly. In the next table, I will introduce the this method.  
+Before you run your Python files in your Raspberry_Pi, you should connect the wires correctly. In the next table, I will introduce the this method.  
 |AD7606 Board |Raspberry Board|
 | :-----------: | :-----------: |
 |5V|4|
