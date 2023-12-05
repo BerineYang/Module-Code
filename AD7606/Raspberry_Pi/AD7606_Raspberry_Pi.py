@@ -45,7 +45,7 @@ def AD7606_Raspberry_Pi(RANGE = 1, OS = 0):
     GPIO.output(AD_RESET_PIN, GPIO.LOW)
 
     # PWM
-    PWM0 = GPIO.PWM(AD_CONVST_PIN, 100000)  # 创建PWM0实例，并设置频率为50Hz
+    PWM0 = GPIO.PWM(AD_CONVST_PIN, 100000)  # Create PWM0, the frequency is 100000Hz
     PWM0.start(99)
 
     # Define OS pin
